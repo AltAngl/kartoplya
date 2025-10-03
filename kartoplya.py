@@ -117,7 +117,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await back_to_menu(query)
 
 def main():
-    TOKEN = "YOUR_BOT_TOKEN_HERE"
+    TOKEN = "8226837521:AAEN9X67WQQ-zgBPpWZSF-oDNQlZJa5OeAw"
     
     app = Application.builder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
@@ -129,3 +129,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
